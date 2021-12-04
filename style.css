@@ -1,0 +1,36 @@
+
+body {
+	background-size: 30px 30px;
+	background-image:
+	  linear-gradient(to right, rgb(211, 211, 211) 1px, transparent 1px),
+	  linear-gradient(to bottom, rgb(211, 211, 211) 1px, transparent 1px);
+  }
+
+
+
+nav {
+	background-color: rgb(255, 255, 255);
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+
+}
+
+nav, a {
+	color: green;
+	text-decoration: none;
+	
+}
+
+.jumbotron {
+	padding-top: 100px;
+	height: 150px;
+	background-color: rgb(112, 182, 112);
+}
+
+.carousel {
+	background-color: hotpink;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	height: 50px;
+}
