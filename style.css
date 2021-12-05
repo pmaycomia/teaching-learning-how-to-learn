@@ -5,7 +5,7 @@ body {
 	background-image:
 	  linear-gradient(to right, rgb(211, 211, 211) 1px, transparent 1px),
 	  linear-gradient(to bottom, rgb(211, 211, 211) 1px, transparent 1px);
-	  font-size: 20px;
+	  font-size: 17px;
 }
 
 .row, .col-12, .col-6, ul {
@@ -67,6 +67,10 @@ ul li {
 }
 .brain-img {
 	height: 100px;
+}
+
+.bigger-img {
+	height: 150px;
 }
 
 .btn {
