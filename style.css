@@ -1,11 +1,19 @@
 
+
 body {
 	background-size: 30px 30px;
 	background-image:
 	  linear-gradient(to right, rgb(211, 211, 211) 1px, transparent 1px),
 	  linear-gradient(to bottom, rgb(211, 211, 211) 1px, transparent 1px);
-  }
+	  font-size: 20px;
+}
 
+.row, .col-12, .col-6, ul {
+	margin: 0;
+	padding: 0;
+}
+
+/** colors: pink green yellow **/
 
 
 nav {
@@ -18,13 +26,8 @@ nav {
 nav, a {
 	color: green;
 	text-decoration: none;
+	width: 100%; 
 	
-}
-
-.jumbotron {
-	padding-top: 100px;
-	height: 150px;
-	background-color: rgb(112, 182, 112);
 }
 
 .carousel {
@@ -33,4 +36,49 @@ nav, a {
 	font-weight: 100;
 	font-size: 20px;
 	height: 50px;
+	width: 100%;
+}
+
+.full-height {
+	height: 100vh;
+	width: 100%;
+}
+
+.content-title {
+	color: hotpink;
+	font-size: 30px;
+
+}
+.first-content {
+	padding-top: 100px;
+}
+
+.center-text {
+	text-align: center;
+	padding-right: 0;
+}
+
+.text-end {
+	text-align: end;	
+}
+
+li {
+	list-style-type: none;
+}
+.brain-img {
+	height: 100px;
+}
+
+.btn {
+	transition: width 2s;
+}
+
+.container a:hover, .btn:hover {
+	font-size: 20px; /* make it bigger*/
+	background-color: hotpink;
+}
+
+.btn a{
+	
+	color: white;
 }
